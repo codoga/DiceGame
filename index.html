@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zar Oyunu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="dice-container">
+            <img id="player1-dice" src="dice1.png" alt="Player 1 Dice">
+            <img id="player2-dice" src="dice1.png" alt="Player 2 Dice">
+        </div>
+        <button id="roll-button">Roll!</button>
+        <div class="result-container">
+            <p id="result"> </p>
+        </div>
+        <div class="username-container">
+            <label for="username">Player Name: </label>
+            <input type="text" id="username" placeholder="Player 1">
+            <button id="update-username">Register</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
